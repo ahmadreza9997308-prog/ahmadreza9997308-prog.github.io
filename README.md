@@ -1,1 +1,11 @@
-# ahmadreza9997308-prog.github.io
+# Razi Jewelry — Four Pages
+
+نسخه عمومی چهار صفحه طراحی جواهری راضی:
+
+- `/` صفحه اصلی
+- `/no-fee/` طلای بدون اجرت
+- `/product/` جزئیات محصول
+- `/earrings/` دسته‌بندی گوشواره‌ها
+
+کد کامل React پروژه در پوشه `react-source` قرار دارد.
+
