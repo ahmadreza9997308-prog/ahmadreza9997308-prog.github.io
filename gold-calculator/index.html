@@ -92,7 +92,7 @@
         <div class="gauge-legend" aria-label="چهار بازهٔ شاخص اجرت">
           <div data-band="0"><i style="--band:#24855b"></i><strong>اقتصادی</strong><span>۰ تا ۷٪</span></div>
           <div data-band="1"><i style="--band:#8ea94c"></i><strong>ارزنده</strong><span>بیش از ۷ تا ۱۶٪</span></div>
-          <div data-band="2"><i style="--band:#d59b32"></i><strong>پُرهزینه</strong><span>بیش از ۱۶ تا ۲۱٪</span></div>
+          <div data-band="2"><i style="--band:#d59b32"></i><strong>اجرت بالا</strong><span>بیش از ۱۶ تا ۲۱٪</span></div>
           <div data-band="3"><i style="--band:#d66a56"></i><strong>غیراقتصادی</strong><span>بالاتر از ۲۱٪</span></div>
         </div>
         <p class="assessment-note">این شاخص بر پایهٔ بازه‌های راضی و درصد دقیقِ هزینهٔ خرید است؛ ارزش هنری یا کیفیت ساخت طلا را ارزیابی نمی‌کند.</p>
@@ -262,7 +262,7 @@ function formatNumericInput(raw, caret = String(raw).length) {
 const RATE_BANDS = [
   { id: 'economical', label: 'اقتصادی', range: '۰ تا ۷٪', color: '#24855b', heading: 'اجرت کم، خرید اقتصادی', description: 'در مقیاس راضی، اجرت این خرید در اقتصادی‌ترین بازه قرار دارد.' },
   { id: 'valuable', label: 'ارزنده', range: 'بیش از ۷ تا ۱۶٪', color: '#8ea94c', heading: 'خریدتان در بازهٔ ارزنده است', description: 'اجرت این خرید در دومین بازهٔ شاخص راضی قرار دارد؛ پس از بازهٔ اقتصادی.' },
-  { id: 'costly', label: 'پُرهزینه', range: 'بیش از ۱۶ تا ۲۱٪', color: '#d59b32', heading: 'سهم هزینه‌ها بیشتر شده است', description: 'این خرید در بازهٔ پُرهزینه قرار می‌گیرد. برای مقایسه، اجرت مدل‌های مشابه را هم بررسی کنید.' },
+  { id: 'costly', label: 'اجرت بالا', range: 'بیش از ۱۶ تا ۲۱٪', color: '#d59b32', heading: 'سهم هزینه‌ها بیشتر شده است', description: 'این خرید در بازهٔ اجرت بالا قرار می‌گیرد. برای مقایسه، اجرت مدل‌های مشابه را هم بررسی کنید.' },
   { id: 'uneconomical', label: 'غیراقتصادی', range: 'بالاتر از ۲۱٪', color: '#d66a56', heading: 'اجرت بالاتر از بازهٔ به‌صرفه است', description: 'در مقیاس راضی، این درصد در بازهٔ غیراقتصادی قرار دارد؛ سهم بیشتری از مبلغ خرید، اضافه بر ارزش خام طلاست.' },
 ];
 
